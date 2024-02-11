@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="@color/dark_grey"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownId">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_grey"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="16dp"
+                    android:padding="24dp"
+                    android:background="@color/orange"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/adduser"
+                        android:background="@color/grey"
+                        android:padding="32dp"/>
+
+<!--                 android:src="@drawable/your_image_resource"-->
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="8dp"
+                            android:paddingStart="32dp"
+                            android:text="User 1"
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:textAlignment="textStart" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="32dp"
+                            android:text="User@webtel.in"
+                            android:textColor="@color/white"
+                            android:textSize="10dp"
+                            android:textAlignment="textStart" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="32dp"
+                            android:paddingBottom="8dp"
+                            android:text="Unlicensed"
+                            android:textColor="@color/white"
+                            android:textSize="10dp"
+                            android:textAlignment="textStart" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_blue"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:paddingStart="16dp"
+                    android:text="Quick Actions"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    android:textAlignment="textStart" />
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/white_background2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="onResetPasswordClick">-->
+
+<!--                <LinearLayout-->
+<!--                    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:background="@drawable/white_background2"-->
+<!--                    android:onClick="onResetPasswordClick"-->
+<!--                    android:clickable="true"-->
+<!--                    android:focusable="true">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/iconImageView"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:padding="16dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/titleTextView"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:text="Reset password"-->
+<!--                    android:textSize="14dp"-->
+<!--                    android:textAlignment="textStart" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/titleTextView"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:textSize="14dp"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textAlignment="textStart"/>-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/white_background2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="onAssignLicenseClick">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawableLeft="@drawable/baseline_assignment_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:text="Assign License"-->
+<!--                    android:textSize="14dp"-->
+<!--                    android:textAlignment="textStart" />-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/white_background2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="onBlockUserClick">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawableLeft="@drawable/baseline_block_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:text="Block User"-->
+<!--                    android:textSize="14dp"-->
+<!--                    android:textAlignment="textStart" />-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/white_background2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="onDeleteUserClick">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_remove_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:text="Delete User"-->
+<!--                    android:textSize="14dp"-->
+<!--                    android:textAlignment="textStart" />-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/white_background2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="onMultiFactorClick">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawableLeft="@drawable/baseline_lock_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:text="Multi-factor authentication"-->
+<!--                    android:textSize="14dp"-->
+<!--                    android:textAlignment="textStart" />-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:paddingStart="16dp"-->
+<!--                    android:text="Details"-->
+<!--                    android:textSize="10dp"-->
+<!--                    android:textAlignment="textStart" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/white_background2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="onEditUserClick">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawableLeft="@drawable/baseline_edit_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:text="Edit user"-->
+<!--                    android:textSize="14dp"-->
+<!--                    android:textAlignment="textStart" />-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/white_background2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="onUserRoleClick">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawableLeft="@drawable/baseline_assignment_ind_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:text="User role"-->
+<!--                    android:textSize="14dp"-->
+<!--                    android:textAlignment="textStart" />-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/white_background2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="onViewGroupClick">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:text="View and Manage Groups"-->
+<!--                    android:textSize="14dp"-->
+<!--                    android:textAlignment="textStart" />-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/white_background2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="onDeviceIntuneClick">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawableLeft="@drawable/baseline_devices_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:padding="16dp"-->
+<!--                    android:text="Devices in Intune"-->
+<!--                    android:textSize="14dp"-->
+<!--                    android:textAlignment="textStart" />-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ebebeb"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_below="@id/scrollView"
+                tools:ignore="UnknownId"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

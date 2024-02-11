@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/baseline_home_24"/>
+
+        <item android:id="@+id/users"
+            android:title="Users"
+            android:icon="@drawable/baseline_person_24"/>
+
+        <item android:id="@+id/billing"
+            android:title="Billing"
+            android:icon="@drawable/outline_payment_24"/>
+
+        <item android:id="@+id/groups"
+            android:title="Groups"
+            android:icon="@drawable/baseline_groups_24"/>
+
+        <item android:id="@+id/health"
+            android:title="Health"
+            android:icon="@drawable/baseline_health_and_safety_24"/>
+
+        <item android:id="@+id/support"
+            android:title="Support"
+            android:icon="@drawable/baseline_headset_mic_24"/>
+
+        <item android:id="@+id/mailbox"
+            android:title="Mailbox Registration"
+            android:icon="@drawable/baseline_change_circle_24"/>
+
+        <item android:id="@+id/resources"
+            android:title="Resources"
+            android:icon="@drawable/baseline_print_24"/>
+
+        <item android:id="@+id/admin_center"
+            android:title="Admin Center"
+            android:icon="@drawable/baseline_list_24"/>
+
+</menu>

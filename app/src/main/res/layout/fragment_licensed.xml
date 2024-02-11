@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.LicensedFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="vertical">-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:paddingStart="16dp"-->
+<!--                android:background="@drawable/white_background2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="onLinearLayoutClick">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:background="@drawable/circle_background"-->
+<!--                    android:padding="16dp"/>-->
+
+<!--                &lt;!&ndash;                android:src="@drawable/your_image_resource"&ndash;&gt;-->
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingTop="8dp"-->
+<!--                        android:paddingStart="16dp"-->
+<!--                        android:text="User 1"-->
+<!--                        android:textSize="14dp"-->
+<!--                        android:textAlignment="textStart" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="16dp"-->
+<!--                        android:text="User@webtel.in"-->
+<!--                        android:textSize="10dp"-->
+<!--                        android:textAlignment="textStart" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="16dp"-->
+<!--                        android:paddingBottom="8dp"-->
+<!--                        android:text="Unlicensed"-->
+<!--                        android:textSize="10dp"-->
+<!--                        android:textAlignment="textStart" />-->
+
+
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:paddingStart="16dp"-->
+<!--                android:background="@drawable/white_background2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="onLinearLayoutClick">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:background="@drawable/circle_background"-->
+<!--                    android:padding="16dp"/>-->
+
+<!--                &lt;!&ndash;                android:src="@drawable/your_image_resource"&ndash;&gt;-->
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingTop="8dp"-->
+<!--                        android:paddingStart="16dp"-->
+<!--                        android:text="User 1"-->
+<!--                        android:textSize="14dp"-->
+<!--                        android:textAlignment="textStart" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="16dp"-->
+<!--                        android:text="User@webtel.in"-->
+<!--                        android:textSize="10dp"-->
+<!--                        android:textAlignment="textStart" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="16dp"-->
+<!--                        android:paddingBottom="8dp"-->
+<!--                        android:text="Unlicensed"-->
+<!--                        android:textSize="10dp"-->
+<!--                        android:textAlignment="textStart" />-->
+
+
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:paddingStart="16dp"-->
+<!--                android:background="@drawable/white_background2"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:onClick="onLinearLayoutClick">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:background="@drawable/circle_background"-->
+<!--                    android:padding="16dp"/>-->
+
+<!--                &lt;!&ndash;                android:src="@drawable/your_image_resource"&ndash;&gt;-->
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingTop="8dp"-->
+<!--                        android:paddingStart="16dp"-->
+<!--                        android:text="User 1"-->
+<!--                        android:textSize="14dp"-->
+<!--                        android:textAlignment="textStart" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="16dp"-->
+<!--                        android:text="User@webtel.in"-->
+<!--                        android:textSize="10dp"-->
+<!--                        android:textAlignment="textStart" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="16dp"-->
+<!--                        android:paddingBottom="8dp"-->
+<!--                        android:text="Unlicensed"-->
+<!--                        android:textSize="10dp"-->
+<!--                        android:textAlignment="textStart" />-->
+
+
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--            <Space-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"/>-->
+
+
+<!--        </LinearLayout>-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewLicensed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/scrollView"/>
+
+    </ScrollView>
+
+</FrameLayout>
